@@ -19,10 +19,10 @@ python test.py --start 0 --finish 43500 --classifier CNN --byte_num BYTE3_CNN.h5
 
 
 For training MLP
-python train.py --start 0 --finish 43500 --classifier MLP --byte_num BYTE0_MLP.h5  --label_byte 0 --range1 5 --range2 205
-python train.py --start 0 --finish 43500 --classifier MLP --byte_num BYTE1_MLP.h5  --label_byte 1 --range1 255 --range2 455
-python train.py --start 0 --finish 43500 --classifier MLP --byte_num BYTE2_MLP.h5  --label_byte 2 --range1 505 --range2 705
-python train.py --start 0 --finish 43500 --classifier MLP --byte_num BYTE3_MLP.h5  --label_byte 3 --range1 755 --range2 955
+python train.py --start 0 --finish 43500 --classifier MLP --byte_num BYTE0_MLP.h5  --label_byte 0 --range1 5 --range2 205 --epoch 150
+python train.py --start 0 --finish 43500 --classifier MLP --byte_num BYTE1_MLP.h5  --label_byte 1 --range1 255 --range2 455 --epoch 150
+python train.py --start 0 --finish 43500 --classifier MLP --byte_num BYTE2_MLP.h5  --label_byte 2 --range1 505 --range2 705 --epoch 150
+python train.py --start 0 --finish 43500 --classifier MLP --byte_num BYTE3_MLP.h5  --label_byte 3 --range1 755 --range2 955 --epoch 150
 
 
 for testing MLP:
